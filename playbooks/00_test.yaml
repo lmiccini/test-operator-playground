@@ -1,0 +1,7 @@
+---
+- name: Test
+  hosts: localhost
+  tasks:
+    - name: foo
+      ansible.builtin.shell: |
+        echo bar
