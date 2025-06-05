@@ -1,0 +1,4 @@
+---
+- import_playbook: 00_deploy.yaml
+- import_playbook: 00_prep.yaml
+- import_playbook: 01_disabled.yaml

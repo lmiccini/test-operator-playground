@@ -1,5 +1,5 @@
 ---
-- name: Test
+- name: Deploy Instance HA
   hosts: controller-0
   tasks:
     - name: Copy fencing-secret.yaml
